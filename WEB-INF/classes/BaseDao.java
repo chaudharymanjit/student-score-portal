@@ -17,7 +17,7 @@ public class BaseDao
         try 
         {
          Class.forName("com.mysql.jdbc.Driver");
-         con = DriverManager.getConnection("jdbc:mysql://localhost:3306/students","root","Krishna@982002");
+         con = DriverManager.getConnection("jdbc:mysql://localhost:3306/students","root","");
         }
         catch(Exception e)
         {
